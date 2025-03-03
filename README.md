@@ -1,7 +1,7 @@
 # 🤖 Microsoft Copilot Studio for SAP & Oracle Reports Analysis
 
 **Created by**: amitlals  
-**Date**: 2025-03-03 16:23:42 UTC  
+**Date**: 2025-03-03 16:33:48 UTC  
 **Based on**: [Power Platform Community Blog Post](https://community.powerplatform.com/blogs/post/?postid=b04a1e37-8964-ef11-bfe3-6045bda6da2f)
 
 ## 🔍 Overview
@@ -75,9 +75,24 @@ This repository provides everything you need to implement a Microsoft Copilot St
 
 1. Clone this repository
 2. Follow the setup guide in `docs/setup-guide.md`
-3. Configure SharePoint integration using templates in `templates/power-automate/`
-4. Implement AI model configurations from `docs/ai-model-configuration.md`
-5. Test your implementation using the framework provided
+3. **For deployment, refer to our [Deployment Guide](docs/deployment-guide.md)** for step-by-step instructions
+4. Configure SharePoint integration using templates in `templates/power-automate/`
+5. Implement AI model configurations from `docs/ai-model-configuration.md`
+6. Test your implementation using the framework provided
+
+## 🔒 Security Considerations
+
+**Important**: SAP EWA and Oracle AWR reports contain confidential system information. When implementing this solution:
+
+- Strictly follow your organization's Power Platform security policies
+- Ensure proper data loss prevention (DLP) policies are in place
+- Implement appropriate data classification for all stored reports
+- Configure retention policies for generated PDFs according to compliance requirements
+- Use security groups to restrict access to authorized personnel only
+- Enable audit logging for all report access and analysis activities
+- Consider data residency requirements for your organization
+
+See `docs/security-guidelines.md` for detailed security recommendations.
 
 ## 📋 Prerequisites
 
