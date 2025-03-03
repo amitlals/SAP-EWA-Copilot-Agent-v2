@@ -1,4 +1,4 @@
-# 🤖 Microsoft Copilot Studio for SAP & Oracle Reports Analysis
+# 🤖 Microsoft Copilot Studio for SAP & Oracle Technical Reports Analysis
 
 **Created by**: amitlals  
 **Date**: 2025-03-03 16:33:48 UTC  
@@ -6,13 +6,16 @@
 
 ## 🔍 Overview
 
-Transform how your enterprise handles SAP Early Watch Alert (EWA) and Oracle Automatic Workload Repository (AWR) reports with Microsoft Copilot Studio. This repository provides resources and implementation guidance to build an AI-powered solution that can process hundreds of pages of technical reports in seconds, surfacing critical insights that would otherwise take days to discover manually.
+Transform how your enterprise handles SAP Early Watch Alert (EWA) and Oracle Automatic Workload Repository (AWR) reports with Microsoft Copilot Studio. This repository provides resources and implementation guidance to build an AI-powered solution that can process hundreds of pages of technical reports in seconds, surfacing critical insights that would otherwise take days to discover manually. Ref. short PoV Demo - [Ext.Link](https://www.youtube.com/watch?v=rkwSvMWyS9s)
+
+![image](https://github.com/user-attachments/assets/81edb957-e035-43d8-88b6-6edee42bcaff)
+
 
 ## 🚨 The Challenge
 
 Enterprise IT teams face a constant challenge:
-- 📚 SAP EWA and Oracle AWR reports often span hundreds of pages
-- 🧩 Critical insights are buried within technical jargon and extensive data
+- 📚 SAP EWA and Oracle AWR reports often span and recieves hundreds of pages on weekly basis
+- 🧩 Critical insights are buried within technical jargon and extensive data for SAP and DB teams
 - ⏱️ Manual processing is time-consuming and error-prone
 - ⚠️ Delayed insights can lead to system performance issues and business impact
 
@@ -27,7 +30,7 @@ This repository provides everything you need to implement a Microsoft Copilot St
 
 ## 🎁 What You'll Get
 
-- 📘 **Complete Setup Guide**: Step-by-step instructions for configuring Copilot Studio
+- 📘 **Complete Setup Guide**: Step-by-step instructions for configuring Copilot Studio with production/test ready solution
 - 🔗 **SharePoint Integration Templates**: Connect your reports storage to Copilot Studio
 - 🤖 **AI Model Configurations**: Optimized settings for technical content analysis
 - ⚙️ **Custom Workflows**: Ready-to-use workflows for report processing
@@ -42,7 +45,7 @@ This repository provides everything you need to implement a Microsoft Copilot St
 
 ### 2. Data Source Connection
 - 📂 SharePoint integration via Power Automate
-- 🔒 Authentication setup
+- 🔒 Authentication setup, OTP based and Production ready solution
 - ↔️ Data flow configuration
 
 ### 3. Copilot Development
