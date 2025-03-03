@@ -1,6 +1,4 @@
-# PCF Control Samples
 
-This directory contains sample applications demonstrating practical implementations of the PCF controls included in this repository. Each sample is designed to showcase specific features and provide a starting point for your own implementations.
 
 ## Sample Applications
 
