@@ -32,6 +32,8 @@ The deployment process consists of importing our pre-configured solution package
    - Select "Import solution"
    - Upload the ZIP file downloaded from the repository
    - Click "Next" and follow the import wizard
+   <img width="1007" alt="image" src="https://github.com/user-attachments/assets/450e22c4-28ff-4785-b1c0-23356904aa4e" />
+
 
 4. **Verify Import Success**
    - Ensure all components are imported without errors
