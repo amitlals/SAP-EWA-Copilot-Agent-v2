@@ -1,0 +1,27 @@
+{
+  "name": "powerapps-pcf-controls",
+  "version": "1.0.0",
+  "description": "Custom PCF Controls for Power Apps",
+  "scripts": {
+    "build": "npm run build:all",
+    "build:all": "echo 'Build all controls'",
+    "package": "echo 'Package all controls'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitlals/powerapps-pcf-controls.git"
+  },
+  "keywords": [
+    "PowerApps",
+    "PCF",
+    "ComponentFramework",
+    "Custom Controls"
+  ],
+  "author": "amitlals",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "pcf-scripts": "^1.16.6",
+    "pcf-start": "^1.16.6"
+  }
+}

@@ -1,0 +1,29 @@
+.
+├── docs/                                # Documentation
+│   ├── setup-guide.md                   # Comprehensive setup instructions
+│   ├── sharepoint-integration.md        # Guide for SharePoint integration
+│   ├── ai-model-configuration.md        # AI configuration guidelines
+│   ├── user-authentication.md           # Authentication setup guide
+│   └── testing-deployment.md            # Testing and deployment procedures
+├── templates/                           # Pre-built templates
+│   ├── power-automate/                  # Power Automate flow templates
+│   │   └── sharepoint-connector.json    # SharePoint connection template
+│   ├── copilot-studio/                  # Copilot Studio templates
+│   │   ├── knowledge-base-config.json   # Knowledge base configuration
+│   │   └── workflow-templates.json      # Pre-built workflows
+│   └── sample-reports/                  # Sample report formats for testing
+│       ├── sample-ewa-report.pdf        # Sample SAP EWA report
+│       └── sample-awr-report.pdf        # Sample Oracle AWR report
+├── src/                                 # Source code
+│   ├── prompts/                         # AI prompt templates
+│   │   ├── ewa-analysis-prompts.txt     # EWA-specific prompts
+│   │   └── awr-analysis-prompts.txt     # AWR-specific prompts
+│   └── scripts/                         # Utility scripts
+│       ├── setup-environment.ps1        # PowerShell setup script
+│       └── validate-config.ps1          # Configuration validation
+├── images/                              # Screenshots and diagrams
+│   ├── architecture-diagram.png         # Solution architecture
+│   ├── workflow-diagram.png             # Workflow visualization
+│   └── demo-screenshots/                # Implementation examples
+├── README.md                            # Repository documentation
+└── .gitignore                           # Git ignore file
