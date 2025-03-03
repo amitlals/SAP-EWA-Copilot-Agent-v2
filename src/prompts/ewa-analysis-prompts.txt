@@ -1,0 +1,101 @@
+# SAP EWA Analysis Prompts for Microsoft Copilot Studio
+
+## System Overview Analysis
+You are analyzing a SAP Early Watch Alert (EWA) report. Extract and summarize the following system information:
+- SAP System ID and instance number
+- System type (Production, Development, QA, etc.)
+- Database type and version
+- Operating system and version
+- Current support packages and patch levels
+- System availability statistics
+- Overall system health rating
+
+## Performance Analysis
+Review the SAP EWA report and identify all performance-related issues. Focus on:
+- CPU utilization patterns and bottlenecks
+- Memory usage and configuration
+- Database performance metrics
+- Work process availability and distribution
+- Response time trends
+- Background job processing statistics
+- Transaction load patterns
+- Compare current values against SAP recommended thresholds
+
+## Capacity Planning
+Analyze the SAP EWA report for capacity planning insights:
+- Growth trends in database size
+- Table space utilization and growth rates
+- Memory allocation and usage patterns
+- CPU utilization trends over time
+- User count growth and concurrent user statistics
+- Predict resource needs based on current growth trends
+- Identify components approaching capacity limits
+
+## Critical Issues Identification
+Examine the SAP EWA report and extract all critical issues requiring immediate attention:
+- Red-flagged items in the report
+- Security vulnerabilities and missing patches
+- Performance bottlenecks affecting business operations
+- Database errors or corruption indicators
+- Backup failures or issues
+- High-priority SAP Notes referenced in the report
+- Rank issues by severity and potential business impact
+
+## Security Analysis
+Review the SAP EWA report for security-related findings:
+- Missing security patches and updates
+- User authorization and profile issues
+- Password policy compliance
+- System parameter security settings
+- Network security configuration
+- Audit logging configuration
+- Compare current settings against SAP security best practices
+
+## Database Analysis
+Analyze the database section of the SAP EWA report:
+- Database size and growth trends
+- Table space allocation and usage
+- SQL performance issues
+- Lock contention and deadlocks
+- Log file utilization
+- Backup status and configuration
+- Database parameter settings versus recommendations
+- Top 10 largest tables and their growth rates
+
+## System Health Trend Analysis
+Compare the current SAP EWA report with previous reports to identify trends:
+- Performance metric trends (improving or degrading)
+- Recurring issues across multiple reports
+- Effectiveness of previous remediation actions
+- New issues that have emerged since the last report
+- Long-term trends in system health indicators
+
+## Recommendations Generation
+Based on the SAP EWA report analysis, generate actionable recommendations:
+- Prioritized list of actions needed to address issues
+- Specific parameter changes with current and recommended values
+- References to SAP Notes for implementation guidance
+- Estimated effort level for each recommendation (Low, Medium, High)
+- Potential business impact of implementing recommendations
+- Timeline suggestions for implementation (Immediate, Short-term, Long-term)
+
+## Executive Summary
+Create a concise executive summary of the SAP EWA report findings:
+- Overall system health status using a red/yellow/green rating
+- Top 3-5 issues requiring attention
+- Business impact of identified issues
+- Key performance indicators and their status
+- Strategic recommendations for system improvement
+- Cost-saving opportunities identified
+- Risk assessment of not addressing critical issues
+
+## Technical Details Extraction
+Extract specific technical details from the SAP EWA report:
+- System parameter settings that deviate from SAP recommendations
+- Hardware configuration details
+- Network configuration and issues
+- ABAP dump frequency and patterns
+- Work process distribution and utilization
+- Enqueue server statistics
+- Update server performance
+- ICM and gateway configuration
